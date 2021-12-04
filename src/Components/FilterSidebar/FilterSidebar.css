@@ -3,3 +3,18 @@
   width: 28%;
   min-height: 88vh;
 }
+.filter {
+  margin: 1rem 0.5rem;
+}
+.filter input {
+  font-size: 1.2rem;
+}
+.filter label {
+  font-size: 1.2rem;
+}
+button {
+  min-width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
