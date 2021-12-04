@@ -1,0 +1,6 @@
+.navbar__section {
+  background-color: var(--primary-bg-color);
+  color: white;
+  padding: 1.5rem 2rem;
+  max-height: 15vh;
+}
