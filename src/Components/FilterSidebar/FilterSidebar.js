@@ -27,7 +27,7 @@ const FilterSidebar = () => {
             label="Low To High"
             name="group1"
             type="radio"
-            id={`inline-1`}
+            id={`price-inline-1`}
             onChange={(event) => {
               DispatchFilteredState({
                 type: "SORT_BY_PRICE",
@@ -43,7 +43,7 @@ const FilterSidebar = () => {
             label="High To Low"
             name="group1"
             type="radio"
-            id={`inline-2`}
+            id={`price-inline-2`}
             onChange={(event) => {
               DispatchFilteredState({
                 type: "SORT_BY_PRICE",
@@ -65,7 +65,7 @@ const FilterSidebar = () => {
             label="Men"
             name="group2"
             type="checkbox"
-            id={`inline-1`}
+            id={`include-inline-1`}
             onChange={(event) => {
               // console.log("CHECKED...", event.target.checked);
               if (!event.target.checked) {
@@ -90,7 +90,7 @@ const FilterSidebar = () => {
             label="Women"
             name="group2"
             type="checkbox"
-            id={`inline-2`}
+            id={`include-inline-2`}
             onChange={(event) => {
               // console.log("CHECKED...", event.target.checked);
               if (!event.target.checked) {
@@ -119,7 +119,7 @@ const FilterSidebar = () => {
             label="S"
             name="group3"
             type="checkbox"
-            id={`inline-3`}
+            id={`size-inline-1`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -142,7 +142,7 @@ const FilterSidebar = () => {
             label="M"
             name="group3"
             type="checkbox"
-            id={`inline-4`}
+            id={`size-inline-2`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -165,7 +165,7 @@ const FilterSidebar = () => {
             label="XL"
             name="group3"
             type="checkbox"
-            id={`inline-3`}
+            id={`size-inline-3`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -188,7 +188,7 @@ const FilterSidebar = () => {
             label="XXL"
             name="group3"
             type="checkbox"
-            id={`inline-4`}
+            id={`size-inline-4`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -208,16 +208,16 @@ const FilterSidebar = () => {
       </div>
 
       <div className="filter filtered__brand">
-        <label name="group3" style={{ padding: "0", fontWeight: "700" }}>
+        <label name="group4" style={{ padding: "0", fontWeight: "700" }}>
           Brands -{" "}
         </label>
         <span>
           <Form.Check
             inline
             label="Bata"
-            name="group3"
+            name="group4"
             type="checkbox"
-            id={`inline-3`}
+            id={`brand-inline-1`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -238,9 +238,9 @@ const FilterSidebar = () => {
           <Form.Check
             inline
             label="FlyMachine"
-            name="group3"
+            name="group4"
             type="checkbox"
-            id={`inline-4`}
+            id={`brand-inline-2`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -261,9 +261,9 @@ const FilterSidebar = () => {
           <Form.Check
             inline
             label="Nike"
-            name="group3"
+            name="group4"
             type="checkbox"
-            id={`inline-3`}
+            id={`brand-inline-3`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -284,9 +284,9 @@ const FilterSidebar = () => {
           <Form.Check
             inline
             label="Sony"
-            name="group3"
+            name="group4"
             type="checkbox"
-            id={`inline-3`}
+            id={`brand-inline-4`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
@@ -307,9 +307,9 @@ const FilterSidebar = () => {
           <Form.Check
             inline
             label="Zara"
-            name="group3"
+            name="group4"
             type="checkbox"
-            id={`inline-4`}
+            id={`brand-inline-5`}
             onChange={(event) => {
               if (!event.target.checked) {
                 DispatchFilteredState({
